@@ -1,4 +1,4 @@
-# Responsive Scroller
+# Scroll-a-matic
 
 A JavaScript horizontal scroller that automatically scales as part of a responsive design approach.
 
