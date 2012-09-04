@@ -1,23 +1,23 @@
 // Snippets.js
 
 // Check if namespace is defined
-var Snippets = Snippets || {};
+var snippets = snippets || {};
 
 // Snippets namespace
 //
 // Base namespace for the Snippets framework
-Snippets.init = (function ($) {
-	
-	var scripts = {};
+snippets.init = (function ($) {
+
+    var scripts = {};
     // Initialisation
-	scripts.init = function () {
-		$(document).ready(function () {
-			Snippets.Utilities.init();
-			Snippets.Scroller.init();
-		});
-	};
-	
-	// Automatically call init function
-	return scripts.init();
-	
-})(jQuery);
+    scripts.init = function () {
+        $(document).ready(function () {
+            snippets.utils.init();
+            snippets.scroller.init();
+        });
+    };
+
+    // Automatically call init function
+    return scripts.init();
+
+}(jQuery));
