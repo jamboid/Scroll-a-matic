@@ -4,38 +4,38 @@ INDEX
 ========
 
 #1 Basic Elements
-	#1.1 Headings
-	#1.2 Paragraphs
-	#1.3 Lists
-	#1.4 Links / Buttons
-	#1.5 Images
+    #1.1 Headings
+    #1.2 Paragraphs
+    #1.3 Lists
+    #1.4 Links / Buttons
+    #1.5 Images
 
 #2 Framework Levels
-	#2.1 Stretch (.st)
-	#2.2 Field (.fd)
-	#2.3 Region (.rg)
-	#2.4 Group (.gp)
-	#2.5 Component (.cp)	
+    #2.1 Stretch (.st)
+    #2.2 Field (.fd)
+    #2.3 Region (.rg)
+    #2.4 Group (.gp)
+    #2.5 Component (.cp)    
 
 #3 Page Components
-	#3.1 Grid Alignment
-	#3.2 Inner Base Styles
-	#3.3 Scroller - Notes: Responsive scroller
-	#3.X Utilities
+    #3.1 Grid Alignment
+    #3.2 Inner Base Styles
+    #3.3 Scroller - Notes: Responsive scroller
+    #3.X Utilities
 
 #4 CSS3 Enhancements
-	#4.1 Border Radius
-	#4.2 Box Shadow
-	#4.3 Text Shadow
-	#4.4 Gradients
-	#4.5 Transforms
-	#4.6 Transitions
-	#4.7 Animations
+    #4.1 Border Radius
+    #4.2 Box Shadow
+    #4.3 Text Shadow
+    #4.4 Gradients
+    #4.5 Transforms
+    #4.6 Transitions
+    #4.7 Animations
 
 #5 Media Queries
-	#5.1 Max Width = 1024px
-	#5.2 Max Width = 768px
-	#5.3 Max Width = 480px
+    #5.1 Max Width = 1024px
+    #5.2 Max Width = 768px
+    #5.3 Max Width = 480px
 
 */
 
@@ -53,9 +53,8 @@ body {
 }
 
 /*---[ #1.1 Headings ]---*/
-
 h1,h2,h3,h4,h5,h6 {
-	margin:0 0 18px;
+    margin:0 0 18px;
 }
 
 .alpha {
@@ -87,7 +86,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .cpArticle .pageTitle {
-	padding:0;	
+    padding:0;  
 }
 
 /*---[ #1.2 Paragraphs ]---*/
@@ -167,7 +166,7 @@ img {
 }
 
 .st .fdFooter {
-	padding:15px 0 0;	
+    padding:15px 0 0;   
 }
 
 /*---[ #2.3 Region (.rg) ]---*/
@@ -175,13 +174,13 @@ img {
 .rgMainContent {
     float: left;
     width: 75%;
-	background:#999;
+    background:#999;
 }
 
 .rgSubContent {
     float: right;
     width: 25%;
-	background:#000;
+    background:#000;
 }
 
 /*---[ #2.4 Group (.gp) ]---*/
@@ -220,93 +219,93 @@ img {
 /*---[ #3.2 Inner Base Styles ]---*/
 
 .cp .in {
-	
+    
 }
 
 /*---[ #3.3 Scroller - Notes: Responsive scroller ]---*/
 .cpScroller {
-	margin:20px 0;	
-	position:relative;
-	height:100%;
-	overflow:hidden;
+    margin:20px 0;  
+    position:relative;
+    height:100%;
+    overflow:hidden;
 }
 
 .cpScroller .in {
-	padding:0 0 3px;
-	margin:0 15px;
-	position:relative;
-	height:100%;
-	background:none;
-	overflow:hidden;
+    padding:0 0 3px;
+    margin:0 15px;
+    position:relative;
+    height:100%;
+    background:none;
+    overflow:hidden;
 }
 
 .cpScroller ul {
-	padding:0 20px 0 0;
-	display:block;
-	overflow:scroll;
-	white-space: nowrap;
-	background:#bbb;
+    padding:0 20px 0 0;
+    display:block;
+    overflow:scroll;
+    white-space: nowrap;
+    background:#bbb;
 }
 
 .js .cpScroller ul {
-	overflow:hidden;
+    overflow:hidden;
 }
 
 .cpScroller ul li {
-	display:inline-block;
-	vertical-align:top;
-	width:25%;
-	position:relative;
+    display:inline-block;
+    vertical-align:top;
+    width:25%;
+    position:relative;
 }
 
 .cpScroller ul li .content {
-	margin:10px 0 10px 20px;
-	padding:10px 0 10px;
-	display:block;
-	white-space:normal;
+    margin:10px 0 10px 20px;
+    padding:10px 0 10px;
+    display:block;
+    white-space:normal;
 }
 
 .cpScroller ul li .image {
-	line-height:0;
-	margin:0;
+    line-height:0;
+    margin:0;
 }
 
 .cpScroller ul li .summary {
-	text-decoration:none;
-	position:absolute;
-	width:80%;
-	top:23px;
-	left:25px;
-	color:#fff;	
+    text-decoration:none;
+    position:absolute;
+    width:80%;
+    top:23px;
+    left:25px;
+    color:#fff; 
 }
 
 .cpScroller .scrollControls {
-	margin:10px 0 0;
-	text-align:center;		
+    margin:10px 0 0;
+    text-align:center;      
 }
 
 .cpScroller .scrollControls a {
-	padding:4px 10px;
-	margin:0 5px;
-	text-decoration:none;
-	background:#666;
-	color:#fff;	
+    padding:4px 10px;
+    margin:0 5px;
+    text-decoration:none;
+    background:#666;
+    color:#fff; 
 }
 
 .cpScroller .scrollControls a:hover,
 .cpScroller .scrollControls a:focus {
-	background:#333;	
+    background:#333;    
 }
 
 /*  IE7 styles */
 .ie7 .cpScroller ul li {
-	display:inline;
-	white-space:nowrap;
+    display:inline;
+    white-space:nowrap;
 }
 
 /*---[ #3.6 Hero Panel ]---*/
 .cpHero .in {
-	margin:0;	
+    margin:0;   
 }
 
 
@@ -316,11 +315,11 @@ img {
 .fd:after,
 .in:after {
     visibility: hidden;
-	display: block;
-	font-size: 0;
-	content: " ";
-	clear: both;
-	height: 0;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 
 /*---------------------------*/
@@ -330,25 +329,25 @@ img {
 /*---[ #4.1 Border Radius ]---*/
 
 .cpScroller ul {
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	-o-border-radius:5px;
-	border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -o-border-radius:5px;
+    border-radius:5px;
 }
 
 /*---[ #4.2 Box Shadow ]---*/
 
 .rgMainContent .in {
-	-webkit-box-shadow:2px 2px 0 rgba(0,0,0,0.3);
-	-moz-box-shadow:2px 2px 0 rgba(0,0,0,0.3);
-	box-shadow:2px 2px 0 rgba(0,0,0,0.3);	
+    -webkit-box-shadow:2px 2px 0 rgba(0,0,0,0.3);
+    -moz-box-shadow:2px 2px 0 rgba(0,0,0,0.3);
+    box-shadow:2px 2px 0 rgba(0,0,0,0.3);   
 }
 
 
 .scrollContent {
-	-webkit-box-shadow:inset 0 0 10px rgba(0,0,0,0.3), 0 1px 0 #fff;
-	-moz-box-shadow:inset 0 0 10px rgba(0,0,0,0.3), 0 1px 0 #fff;
-	box-shadow:inset 0 0 10px rgba(0,0,0,0.3), 0 1px 0 #fff;	
+    -webkit-box-shadow:inset 0 0 10px rgba(0,0,0,0.3), 0 1px 0 #fff;
+    -moz-box-shadow:inset 0 0 10px rgba(0,0,0,0.3), 0 1px 0 #fff;
+    box-shadow:inset 0 0 10px rgba(0,0,0,0.3), 0 1px 0 #fff;    
 }
 
 /*---[ #4.3 Text Shadow ]---*/
@@ -383,100 +382,100 @@ a {
 /*---[ #5.1 Max Width = 1024px ]---*/
 
 @media only screen and (max-width:1024px) { 
-	.rgMainContent,
-	.rgSubContent {
-	    width: 100%
-	}
+    .rgMainContent,
+    .rgSubContent {
+        width: 100%
+    }
 
-	.rgSubContent .cp {
-	    float: left;
-	    width: 50%;
-	}
+    .rgSubContent .cp {
+        float: left;
+        width: 50%;
+    }
 
-	/*---[ Grid Alignment - margins ]---*/
+    /*---[ Grid Alignment - margins ]---*/
 
-	/*---[ Component styles ]---*/
+    /*---[ Component styles ]---*/
 
-	.detail .img {
-	    float: left;
-	    max-width: 50%;
-	}
+    .detail .img {
+        float: left;
+        max-width: 50%;
+    }
 
-	.detail .desc {
-	    overflow: visible
-	}
-	
-	/*---[ Scroller ]---*/
-	.cpScroller ul li {
-		width:33.3333%;	
-	}
+    .detail .desc {
+        overflow: visible
+    }
+    
+    /*---[ Scroller ]---*/
+    .cpScroller ul li {
+        width:33.3333%; 
+    }
 }
 
 /*---[ #5.1 Max Width = 768px ]---*/
 @media only screen and (max-width: 768px) { 
-	
-	/*---[ Grid Alignment - margins ]---*/	
-	.st .fd,
-	.rg,
-	.rg .gp .cp {
-	    width: 100%
-	}
+    
+    /*---[ Grid Alignment - margins ]---*/  
+    .st .fd,
+    .rg,
+    .rg .gp .cp {
+        width: 100%
+    }
 
-	.rg .gp .cp .in {
-	    margin:15px;
-	}
+    .rg .gp .cp .in {
+        margin:15px;
+    }
 
-	.cp .desc {
-	    float: none;
-	    max-width: 100%;
-	    clear: none;
-	}
-	
-	/*---[ Generic Component Elements ]---*/
-	
-	.cp .img {
-		border:none;
-	}
-	
-	/*---[ Scroller ]---*/
-	.cpScroller ul li {
-		width:50%;	
-	}
+    .cp .desc {
+        float: none;
+        max-width: 100%;
+        clear: none;
+    }
+    
+    /*---[ Generic Component Elements ]---*/
+    
+    .cp .img {
+        border:none;
+    }
+    
+    /*---[ Scroller ]---*/
+    .cpScroller ul li {
+        width:50%;  
+    }
 
-	.stSiteHeader h1 span {
-	    display: none
-	}
+    .stSiteHeader h1 span {
+        display: none
+    }
 }
 
 /*---[ #5.1 Max Width = 480px ]---*/
 @media only screen and (max-width: 480px) { 
-	.detail .image {
-	    float: none;
-	    max-width: 100%;
-	    margin-right: 0;
-	}
+    .detail .image {
+        float: none;
+        max-width: 100%;
+        margin-right: 0;
+    }
 
-	.fd,
-	.rg,
-	.in,
-	.fwPointer h1 {
-	    margin: 0
-	}
+    .fd,
+    .rg,
+    .in,
+    .fwPointer h1 {
+        margin: 0
+    }
 
-	.fdHeader .brand h2 {
-	    display: none
-	}
+    .fdHeader .brand h2 {
+        display: none
+    }
 
-	.in,
-	.fdHeader .brand {
-	    margin-left: 15px;
-	    margin-right: 15px;
-	}
-	
-		/*---[ Scroller ]---*/
-	.cpScroller ul li {
-		width:100%;	
-	}
+    .in,
+    .fdHeader .brand {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+        /*---[ Scroller ]---*/
+    .cpScroller ul li {
+        width:100%; 
+    }
 }
 
 /*---[ Framework Heading ]---*/
