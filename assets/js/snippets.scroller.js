@@ -8,6 +8,7 @@ snippets.scroller = (function ($) {
             // Selectors for scroller plugin
             selControls: ".scrollControls",
             selControl : "[data-action]",
+            selScrollerContent : ".scrollContent",
             selPlugin : "[data-plugin=scroller]"
         },
         buildScroller = function (scroller, config) {
@@ -110,6 +111,11 @@ snippets.scroller = (function ($) {
                         var direction = $(this).attr('data-action');
                         moveScroller(direction);
                     });
+
+                    // Touch events
+                    $(defaults.selScrollerContent).swipeEvents()
+                        .bind("swipeLeft",  function(){ moveScroller('next'); })
+                        .bind("swipeRight",  function(){ moveScroller('previous'); })
                 };
 
             // Debug log for configuration
